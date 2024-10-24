@@ -1,0 +1,97 @@
+/* Mobile Responsive CSS */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .sec1 {
+        margin: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    .logo {
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .heading button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .text1 {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    #box {
+        margin: 20px;
+        grid-template-columns: 1fr;
+        font-size: 120%;
+    }
+
+    #box img, #box2 img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #box div, #box2 div {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #box h4, #box2 h4 {
+        font-size: 70%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .sec2 {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+
+    .workbox {
+        width: 100%;
+        margin: 10px auto;
+        padding: 30px;
+        font-size: 150%;
+    }
+
+    .skills {
+        grid-template-columns: 1fr 1fr;
+        margin: 20px;
+    }
+
+    .skills div {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .galaries {
+        width: 100%;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 5px;
+    }
+
+    .container {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    #commentsSection {
+        padding: 0 10px;
+    }
+
+    button {
+        padding: 8px;
+        width: 100%;
+    }
+}

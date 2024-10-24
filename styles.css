@@ -1,0 +1,331 @@
+body{
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Dancing Script', cursive; */
+    /* margin: 50px; */
+    padding: 0;
+    background-color: black;
+    color: white;
+
+}
+.sec1{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-self: center;
+    margin-bottom: 0;
+}
+.navbar{
+    width: fit-content;
+    background: linear-gradient(0deg, #000000, #63636349);
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    /* border-image:  linear-gradient(180deg, rgb(133, 133, 133), black) 1; */
+    border-radius: 50px;
+}
+
+.heading button{
+    margin-left: auto;
+    margin-right: 0;
+    border: solid white 2px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+.heading button:hover{
+    background-color: #ffffff;
+    border: solid black 2px;
+    color: #000000;
+
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.logo{
+    margin: 25px;
+    display: flex;
+    align-items: center;
+}
+.headtext{
+    padding-left: 10px;
+    line-height: 0%;
+    padding-top: 10px;
+}
+.headtext h5{
+    opacity: 70%;
+}
+.text1{
+    margin-top: 100px;
+    padding: 50px;
+    padding-top: 0px;
+}
+.text1 h3{
+    opacity: 70%;
+}
+.cursive{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.hero img{
+    width: 100%;
+}
+#box{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 150%;
+    align-items: center;
+}
+#box img{
+    width: 100%;
+}
+#box div{
+    margin-left: 50px;
+}
+#box h4{
+    font-size: 80%;
+    margin-right: 70px;
+    opacity: 70%;
+}
+#box button{
+    border: solid white 2px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+#box button:hover{
+    background-color: #ffffff;
+    border: solid black 2px;
+    color: #000000;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#box button:hover a{
+    color: #000000;
+}
+
+.sec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* aspect-ratio: 1 / 0.6; */
+    margin: 40px;
+}
+.workbox {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    width: 300px;
+}
+#workimg1{
+    background: 
+        linear-gradient(0deg, #000000d3, #63636300),
+        url(Sketch.png);
+        background-size: cover;
+}
+#workimg2{
+    background: 
+        linear-gradient(0deg, #000000d3, #63636300),
+        url(art2.jpg);
+        background-size: cover;
+}
+#workimg3{
+    background: 
+        linear-gradient(0deg, #000000d3, #63636300),
+        url(char.jpg);
+        background-size: cover;
+}
+#workimg4{
+    background: 
+        linear-gradient(0deg, #000000d3, #63636300),
+        url(Artwork/Child.jpg);
+        background-size: cover;
+}
+#workimg5{
+    background: 
+        linear-gradient(0deg, #000000d3, #63636300),
+        url(Artwork/ui.jpg);
+        background-size: cover;
+}
+#workimg6{
+    background: 
+        linear-gradient(0deg, #000000d3, #63636300),
+        url(art.png);
+        background-size: cover;
+}
+
+.workbox h4 {
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    transition: opacity 0.3s ease;
+}
+
+.workbox:hover h4 {
+    opacity: 0;
+}
+.workbox h2{
+    margin: 0;
+    font-size: 200%
+}
+#head{
+    text-align: center;
+    /* border: solid white 1px; */
+    border-bottom: solid white 1px;
+    border-top: solid white 1px;
+    padding: 10px;
+    background: linear-gradient(0deg, #000000d3, #63636300);
+}
+
+#box2{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 150%;
+    align-items: center;
+    text-align: right;
+}
+#box2 img{
+    width: 100%;
+}
+#box2 div{
+    margin-left: 50px;
+}
+#box2 h4{
+    font-size: 80%;
+    /* margin-right: 70px; */
+    opacity: 70%;
+}
+#box2 button{
+    border: solid white 2px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+#box2 button:hover{
+    background-color: #ffffff;
+    border: solid black 2px;
+    color: #000000;
+}
+#box2 button:hover a{
+    color: #000000;
+}
+
+.container {
+    background-color: transparent;
+    background: linear-gradient(0deg, #000000d3, #63636300);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    display: none;
+}
+
+.container h1 & h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.container button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container button:hover {
+    background-color: #0056b3;
+}
+
+#commentsSection {
+    margin-top: 20px;
+}
+
+.comment {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+button{
+    border-radius: 50px;
+}
+.head{
+    text-align: center;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 60px;
+    margin-top: 10px;
+}
+.skills img{
+    height: 60px;
+    width: 60px;
+}
+.skills div{
+    padding: 50px;
+    background-color: transparent;
+    background: linear-gradient(0deg, #00000070, #6363636b);
+    border: solid 2px rgba(255, 255, 255, 0.411);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.galaries {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .galaries div {
+    overflow: hidden;
+  }
+  
+  .galaries div img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
